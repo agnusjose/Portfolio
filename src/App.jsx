@@ -15,21 +15,21 @@ function App() {
   const contactRef = useRef(null);
 
   const scrollToSection = (elementRef) => {
-  const nav = document.querySelector('.nav'); // your navbar element
-  const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+    const nav = document.querySelector('.nav'); // your navbar element
+    const navHeight = nav ? nav.getBoundingClientRect().height : 0;
 
-  const elementPosition =
-    elementRef.current.getBoundingClientRect().top + window.pageYOffset;
-  const offsetPosition = elementPosition - navHeight;
+    const elementPosition =
+      elementRef.current.getBoundingClientRect().top + window.pageYOffset;
+    const offsetPosition = elementPosition - navHeight;
 
-  window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
-};
+    window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
+  };
 
 
   return (
     <>
-      <Navbar 
-        scrollToSection={scrollToSection} 
+      <Navbar
+        scrollToSection={scrollToSection}
         refs={{ homeRef, aboutRef, projectsRef, skillsRef, contactRef }}
       />
       <div ref={homeRef}><Home /></div>

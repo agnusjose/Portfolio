@@ -1,11 +1,19 @@
-.about{
-    align-items: center;
-    padding: 20px;
+.about {
+	background-color: transparent;
 }
-.about p{
-    margin: 30px;
-    justify-content: center;
-    line-height: 2;
-    text-align: justify;
-    font-size: large;
+
+.about-content p {
+	margin-bottom: 1.5rem;
+	font-size: 1.15rem;
+	line-height: 1.8;
+}
+
+.about-content strong {
+	color: var(--accent-primary);
+	font-weight: 600;
+}
+
+.glass-card {
+	max-width: 900px;
+	margin: 0 auto;
 }

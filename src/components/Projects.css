@@ -1,22 +1,112 @@
-.projects{
-    margin: 20px;
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	gap: 2.5rem;
+	margin-top: 3rem;
 }
-.projects dl{
-    font-size: large;    
+
+.project-card {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
-.projects dl dd{
-    line-height: 2;
-    text-align: justify;
-    margin: 30px;
-    margin-top: 10px;
+
+.project-tagline {
+	font-size: 0.8rem;
+	color: var(--accent-secondary);
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.5rem;
+	display: block;
 }
-.projects ul li{
-    line-height: 1;
-    text-align: justify;
-    margin: 30px;
-    margin-top: 10px;
+
+.project-title {
+	margin-bottom: 1rem;
+	color: var(--text-primary);
 }
-.projects a{
-    text-decoration: none;
-    color: rgb(215, 214, 214);
+
+.project-description {
+	margin-bottom: 1.5rem;
+	font-size: 1rem;
+	color: var(--text-secondary);
+	white-space: pre-wrap;
+	line-height: 1.6;
+}
+
+.project-description-wrapper {
+	margin-bottom: 1.5rem;
+}
+
+.project-section {
+	margin-bottom: 1.5rem;
+}
+
+.project-section h4 {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--accent-primary);
+	margin-bottom: 0.75rem;
+	border-bottom: 1px solid var(--glass-border);
+	padding-bottom: 0.5rem;
+}
+
+.highlights-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.highlights-list li {
+	font-size: 0.9rem;
+	color: var(--text-secondary);
+	margin-bottom: 0.5rem;
+	position: relative;
+	padding-left: 1.25rem;
+	line-height: 1.5;
+}
+
+.highlights-list li::before {
+	content: "▹";
+	position: absolute;
+	left: 0;
+	color: var(--accent-primary);
+}
+
+.role-text {
+	font-size: 0.9rem;
+	color: var(--text-secondary);
+	white-space: pre-wrap;
+	line-height: 1.6;
+}
+
+.tech-stack {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.6rem;
+	margin-top: auto;
+	padding-top: 1rem;
+}
+
+.tech-badge {
+	background: rgba(255, 255, 255, 0.05);
+	border: 1px solid var(--glass-border);
+	padding: 4px 12px;
+	border-radius: 99px;
+	font-size: 0.75rem;
+	font-weight: 500;
+	color: var(--text-secondary);
+	transition: var(--transition-fast);
+}
+
+.tech-badge:hover {
+	background: var(--glass-bg);
+	color: var(--text-primary);
+	border-color: var(--accent-primary);
+}
+
+@media (max-width: 968px) {
+	.projects-grid {
+		grid-template-columns: 1fr;
+	}
 }
