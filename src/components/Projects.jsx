@@ -40,7 +40,7 @@ The platform integrates AI-driven rehabilitation monitoring using WebRTC and Med
       "Tailwind CSS"
     ],
 
-    link: "https://github.com/agnusjose"
+    link: "https://github.com/agnusjose/PostJourney"
   },
   {
     title: "CraftConnect",
