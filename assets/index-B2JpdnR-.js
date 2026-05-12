@@ -66,7 +66,7 @@ The platform integrates AI-driven rehabilitation monitoring using WebRTC and Med
 • Implemented role-based access control and secure RESTful APIs using JWT authentication.
 • Contributed to AI-powered rehabilitation monitoring using WebRTC and MediaPipe for posture state detection.
 • Performed full-system integration, resolved backend routing conflicts, refactored Express modules, and stabilized the application after major merge conflicts.
-  `,technologies:["React Native","Expo","Node.js","Express.js","MongoDB","JWT","WebRTC","MediaPipe","FastAPI","Tailwind CSS"],link:"https://github.com/agnusjose"},{title:"CraftConnect",tagline:"Real-Time Marketplace for Artisans & Customers",description:`
+  `,technologies:["React Native","Expo","Node.js","Express.js","MongoDB","JWT","WebRTC","MediaPipe","FastAPI","Tailwind CSS"],link:"https://github.com/agnusjose/PostJourney"},{title:"CraftConnect",tagline:"Real-Time Marketplace for Artisans & Customers",description:`
 CraftConnect is a web-based marketplace platform designed to bridge artisans and customers through direct communication and customizable product workflows. The platform enables real-time interaction between buyers and manufacturers while supporting order management and product customization.
 
 It integrates WebSocket-based live messaging, a structured manufacturer dashboard, and a streamlined shopping experience for handling orders and product modifications.
