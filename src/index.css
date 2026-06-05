@@ -27,7 +27,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 12px;
 }
 
 ::-webkit-scrollbar-track {
@@ -35,12 +35,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #222;
-  border-radius: 5px;
+  background: linear-gradient(180deg, #8d7cff, #5dd3ff);
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #333;
+  background: linear-gradient(180deg, #9d8cff, #7de5ff);
 }
 
 

@@ -12,8 +12,7 @@ function Home() {
             <span className="text-gradient">Agnus Jose</span>
           </h2>
           <p className="home-description">
-            Self-driven final-year Computer Science student at SJCET Palai.
-            Experienced in C, Python, MERN stack, and AI-integrated applications using WebRTC and MediaPipe.
+            Final-year B.Tech Computer Science and Engineering student with internship and project experience developing full-stack web applications using React.js, Node.js, Express.js, MongoDB and Python. Built role-based dashboards, authentication systems, REST API integrations, and real-time communication features across healthcare, e-commerce, and sports management applications. 
           </p>
 
           <div className="home-actions">

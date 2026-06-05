@@ -2,16 +2,22 @@ import React, { useRef } from 'react';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Achievements from './components/Achievements';
+import Leadership from './components/Leadership';
 import Contact from './components/Contact';
 import './App.css';
 
 function App() {
   const homeRef = useRef(null);
   const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
   const projectsRef = useRef(null);
   const skillsRef = useRef(null);
+  const achievementsRef = useRef(null);
+  const leadershipRef = useRef(null);
   const contactRef = useRef(null);
 
   const scrollToSection = (elementRef) => {
@@ -30,12 +36,15 @@ function App() {
     <>
       <Navbar
         scrollToSection={scrollToSection}
-        refs={{ homeRef, aboutRef, projectsRef, skillsRef, contactRef }}
+        refs={{ homeRef, aboutRef, experienceRef, projectsRef, skillsRef, achievementsRef, leadershipRef, contactRef }}
       />
       <div ref={homeRef}><Home /></div>
       <div ref={aboutRef}><About /></div>
+      <div ref={experienceRef}><Experience /></div>
       <div ref={projectsRef}><Projects /></div>
       <div ref={skillsRef}><Skills /></div>
+      <div ref={achievementsRef}><Achievements /></div>
+      <div ref={leadershipRef}><Leadership /></div>
       <div ref={contactRef}><Contact /></div>
     </>
   );

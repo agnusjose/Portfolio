@@ -7,8 +7,11 @@ function Navbar({ scrollToSection, refs }) {
   const items = [
     { label: 'Home', ref: refs.homeRef },
     { label: 'About', ref: refs.aboutRef },
+    { label: 'Experience', ref: refs.experienceRef },
     { label: 'Projects', ref: refs.projectsRef },
     { label: 'Skills', ref: refs.skillsRef },
+    { label: 'Achievements', ref: refs.achievementsRef },
+    { label: 'Leadership', ref: refs.leadershipRef },
     { label: 'Contact', ref: refs.contactRef },
   ];
 

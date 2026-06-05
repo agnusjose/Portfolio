@@ -6,25 +6,25 @@ const projectData = [
     tagline: "AI-Integrated Post-Hospital Recovery Platform",
 
     description: `
-PostJourney is an AI-powered mobile healthcare platform designed to assist patients during their post-hospital recovery phase. The application enables safe, guided rehabilitation at home through real-time AI posture monitoring while also providing access to essential medical equipment, home care services, and doctor consultations.
+PostJourney is an AI-assisted mobile healthcare platform designed to assist patients during their post-hospital recovery phase. The application enables safe, guided rehabilitation at home through real-time AI posture monitoring while also providing access to essential medical equipment, home care services, and doctor consultations.
 
-The platform integrates AI-driven rehabilitation monitoring using WebRTC and MediaPipe for real-time posture detection and automated exercise guidance. It also includes a comprehensive healthcare marketplace for equipment booking, care service management, and real-time doctor consultation with chat-based communication.
+The platform integrates AI-driven exercise monitoring using WebRTC and MediaPipe for real-time posture detection and automated exercise guidance. It also includes a comprehensive healthcare marketplace for equipment renting, care service management, and real-time doctor consultation with chat-based communication.
   `,
 
     highlights: [
-      "AI-powered real-time rehabilitation monitoring using WebRTC + MediaPipe",
+      "AI-powered real-time exercise monitoring using WebRTC + MediaPipe",
       "Posture state detection with automated corrective guidance",
-      "Marketplace for medical equipment booking and home care services",
+      "Marketplace for medical equipment renting and home care services",
       "Doctor consultation booking with real-time chat",
-      "Role-based access control (Patient, Provider, Admin)",
+      "Iot-based health monitoring integration", 
+      "Role-based access control (Patient, Equipment Provider, Caregiver Agencies, Admin)",
       "Secure REST APIs with JWT authentication"
     ],
 
     myRole: `
-• Developed the Healthcare Marketplace module including equipment booking and care service workflows.
-• Implemented role-based access control and secure RESTful APIs using JWT authentication.
-• Contributed to AI-powered rehabilitation monitoring using WebRTC and MediaPipe for posture state detection.
-• Performed full-system integration, resolved backend routing conflicts, refactored Express modules, and stabilized the application after major merge conflicts.
+• Developed the Healthcare Marketplace module including equipment renting and care service workflows.
+• Contributed to AI-powered rehabilitation monitoring integration using WebRTC and MediaPipe for posture state detection.
+• Participated in code integration efforts by resolving backend routing issues and merge conflicts to maintain application stability.
   `,
 
     technologies: [
@@ -49,19 +49,19 @@ The platform integrates AI-driven rehabilitation monitoring using WebRTC and Med
     description: `
 CraftConnect is a web-based marketplace platform designed to bridge artisans and customers through direct communication and customizable product workflows. The platform enables real-time interaction between buyers and manufacturers while supporting order management and product customization.
 
-It integrates WebSocket-based live messaging, a structured manufacturer dashboard, and a streamlined shopping experience for handling orders and product modifications.
+It integrates SocketIO-based live messaging, a structured manufacturer dashboard, and a streamlined shopping experience for handling orders and product modifications.
   `,
 
     highlights: [
-      "Real-time chat between customers and manufacturers using WebSockets",
+      "Real-time chat between customers and manufacturers using SocketIO",
       "Manufacturer dashboard for managing orders, messages, and products",
+      "Customer dashboard for viewing orders, messages, and products",
       "Shopping cart with dynamic order handling",
-      "Product customization workflow",
       "Lightweight Flask backend with SQLite database"
     ],
 
     myRole: `
-• Designed and developed the real-time chat system (frontend + backend) using WebSockets.
+• Designed and developed the real-time chat system (frontend + backend) using SocketIO.
 • Implemented shopping cart functionality and order processing logic.
 • Built core manufacturer dashboard modules including Manage Orders, Check Messages, and Manage Products.
 • Developed REST endpoints and backend logic using Flask and SQLite.
@@ -75,7 +75,7 @@ It integrates WebSocket-based live messaging, a structured manufacturer dashboar
       "Python",
       "Flask",
       "SQLite",
-      "WebSockets"
+      "SocketIO"
     ],
 
     link: "https://github.com/agnusjose/CraftConnect"
@@ -88,7 +88,7 @@ function Projects() {
     <section className="projects" id="projects">
       <div className="container">
         <span className="section-tag">Portfolio</span>
-        <h2>Selected Works</h2>
+        <h2>Projects</h2>
 
         <div className="projects-grid">
           {projectData.map((project, index) => (

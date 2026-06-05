@@ -1,10 +1,13 @@
 .home-title {
 	margin-bottom: 1.5rem;
+	animation: slideInLeft 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .home-description {
 	max-width: 500px;
 	margin-bottom: 2.5rem;
+	animation: slideInLeft 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.1s both;
+	color: var(--text-secondary);
 }
 
 .home-image {
@@ -23,15 +26,17 @@
 	width: 100%;
 	max-width: 400px;
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-	box-shadow: var(--shadow-soft);
+	box-shadow: var(--shadow-medium);
 	transition: var(--transition-smooth);
 	border: 4px solid var(--glass-border);
+	animation: float 3s ease-in-out infinite;
 }
 
 .hero-img:hover {
 	border-radius: 50%;
-	transform: scale(1.02);
+	transform: scale(1.05);
 	border-color: var(--accent-primary);
+	box-shadow: var(--shadow-strong);
 }
 
 .image-accent {

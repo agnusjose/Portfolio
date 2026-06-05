@@ -1,27 +1,21 @@
 import "./Skills.css"
 
-function SkillItem({ name, percent }) {
+function SkillItem({ name }) {
   return (
     <div className="skill-item">
-      <div className="skill-info">
-        <span className="skill-name">{name}</span>
-        <span className="skill-percentage">{percent}%</span>
-      </div>
-      <div className="skill-progress-bg">
-        <div className="skill-progress-fill" style={{ width: `${percent}%` }}></div>
-      </div>
+      <span className="skill-badge">{name}</span>
     </div>
   )
 }
 
 function Skills() {
   const technicalSkills = [
-    { name: "Python / C ", percent: 85 },
-    { name: "MERN Stack (React, Node, Express, MongoDB)", percent: 85 },
-    { name: "Web Technologies (HTML, CSS, JS)", percent: 92 },
-    { name: "Flask", percent: 80 },
-    { name: "Databases (SQLite, MongoDB, MySQL)", percent: 85 },
-    { name: "Tools (Git, VS Code)", percent: 85 }
+    { name: "Languages: Python, JavaScript, HTML/CSS" },
+    { name: "Frontend: React.js, React Native, HTML/CSS" },
+    { name: "Backend: Node.js, Express.js, Flask" },
+    { name: "Databases: MongoDB, PostgreSQL, SQLite" },
+    { name: "APIs & Real-Time: REST APIs, SocketIO, JWT" },
+    { name: "DevOps & Tools: Docker, Git, VS Code" }
   ];
 
   const coreStrengths = [
@@ -37,10 +31,10 @@ function Skills() {
 
         <div className="grid-2">
           <div className="glass-card fade-up">
-            <h3>Technical Expertise</h3>
+            <h3>Tech Stack</h3>
             <div className="skills-container">
               {technicalSkills.map((skill) => (
-                <SkillItem key={skill.name} name={skill.name} percent={skill.percent} />
+                <SkillItem key={skill.name} name={skill.name} />
               ))}
             </div>
           </div>
@@ -54,9 +48,6 @@ function Skills() {
                   {skill}
                 </div>
               ))}
-            </div>
-            <div className="skills-extra">
-              <p>Passionate about leveraging modern technologies to solve real-world challenges through continuous learning and innovative thinking.</p>
             </div>
           </div>
         </div>
