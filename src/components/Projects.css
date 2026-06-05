@@ -1,8 +1,17 @@
+.projects {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.03), rgba(121, 40, 202, 0.02));
+}
+
 .projects-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 	gap: 2.5rem;
 	margin-top: 3rem;
+}
+
+.projects h2 {
+  text-align: center;
 }
 
 .project-card {

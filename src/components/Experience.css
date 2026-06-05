@@ -1,6 +1,11 @@
 .experience {
   padding: 5rem 0;
   position: relative;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.03), rgba(121, 40, 202, 0.02));
+}
+
+.experience h2 {
+  text-align: center;
 }
 
 .experience .section-subtitle {

@@ -1,3 +1,8 @@
+.home {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, rgba(0, 212, 255, 0.03), rgba(121, 40, 202, 0.02));
+}
+
 .home-title {
 	margin-bottom: 1.5rem;
 	animation: slideInLeft 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
