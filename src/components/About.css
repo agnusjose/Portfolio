@@ -14,6 +14,7 @@
 	letter-spacing: 0.3px;
 	color: var(--text-secondary);
 	transition: var(--transition-fast);
+	text-align: justify;
 }
 
 .about-content p:hover {

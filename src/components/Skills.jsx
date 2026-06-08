@@ -15,7 +15,8 @@ function Skills() {
     { name: "Backend: Node.js, Express.js, Flask" },
     { name: "Databases: MongoDB, PostgreSQL, SQLite" },
     { name: "APIs & Real-Time: REST APIs, SocketIO, JWT" },
-    { name: "DevOps & Tools: Docker, Git, VS Code" }
+    { name: "DevOps & Tools: Docker, Git, Linux, VS Code" },
+    { name: "Core CS: Data Structures, DBMS, Operating Systems, OOP" }
   ];
 
   const coreStrengths = [

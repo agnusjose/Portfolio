@@ -73,6 +73,7 @@
 	color: var(--text-secondary);
 	white-space: pre-wrap;
 	line-height: 1.6;
+	text-align: justify;
 }
 
 .project-description-wrapper {
@@ -111,6 +112,7 @@
 	position: relative;
 	padding-left: 1.25rem;
 	line-height: 1.5;
+	text-align: justify;
 }
 
 .highlights-list li::before {
@@ -125,6 +127,7 @@
 	color: var(--text-secondary);
 	white-space: pre-wrap;
 	line-height: 1.6;
+	text-align: justify;
 }
 
 .tech-stack {

@@ -12,7 +12,7 @@ function Home() {
             <span className="text-gradient">Agnus Jose</span>
           </h2>
           <p className="home-description">
-            Final-year B.Tech Computer Science and Engineering student with internship and project experience developing full-stack web applications using React.js, Node.js, Express.js, MongoDB and Python. Built role-based dashboards, authentication systems, REST API integrations, and real-time communication features across healthcare, e-commerce, and sports management applications. 
+              B.Tech graduate in Computer Science and Engineering with internship and project experience developing full-stack web applications using React.js, Node.js, Express.js, MongoDB, PostgreSQL, and Python. Experienced in developing role-based applications, REST APIs, authentication systems, and real-time communication features across healthcare, e-commerce, and sports management domains.    
           </p>
 
           <div className="home-actions">
