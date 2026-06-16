@@ -36,7 +36,7 @@ Your portfolio now contains **8 comprehensive sections**:
 - ✔️ Expanded descriptions with enterprise context
 
 **About Section:**
-- ✔️ Added: CGPA 8.21, college name (SJCET Palai)
+- ✔️ Added: CGPA 8.17, college name (SJCET Palai)
 - ✔️ Added: Internship details
 - ✔️ Added: Leadership context
 - ✔️ Professional CTA at end
